@@ -112,8 +112,6 @@
 		3E9233DF188DE6E6007E6A6B /* CP.TemperatureConverter */ = {
 			isa = PBXGroup;
 			children = (
-				3E9233E8188DE6E6007E6A6B /* CPAppDelegate.h */,
-				3E9233E9188DE6E6007E6A6B /* CPAppDelegate.m */,
 				3E9233EB188DE6E6007E6A6B /* Main.storyboard */,
 				3E9233EE188DE6E6007E6A6B /* CPViewController.h */,
 				3E9233EF188DE6E6007E6A6B /* CPViewController.m */,
@@ -126,6 +124,8 @@
 		3E9233E0188DE6E6007E6A6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3E9233E8188DE6E6007E6A6B /* CPAppDelegate.h */,
+				3E9233E9188DE6E6007E6A6B /* CPAppDelegate.m */,
 				3E9233E1188DE6E6007E6A6B /* CP.TemperatureConverter-Info.plist */,
 				3E9233E2188DE6E6007E6A6B /* InfoPlist.strings */,
 				3E9233E5188DE6E6007E6A6B /* main.m */,
