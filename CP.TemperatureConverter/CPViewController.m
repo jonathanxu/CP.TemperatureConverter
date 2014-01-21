@@ -39,10 +39,6 @@
         }
     }
 }
-- (IBAction)touchFahrenheit {
-    NSLog(@"touchFahrenheit");
-    self.activeTextField = @"F";
-}
 
 - (IBAction)editingChangedFahrenheit {
     NSLog(@"editingChangedFahrenheit");
