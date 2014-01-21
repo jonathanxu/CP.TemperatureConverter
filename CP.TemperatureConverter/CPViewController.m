@@ -10,6 +10,8 @@
 #import "CPTemperatureUtil.h"
 
 @interface CPViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *fahrenheitLabel;
+@property (weak, nonatomic) IBOutlet UILabel *celsiusLabel;
 @property (weak, nonatomic) IBOutlet UITextField *fahrenheitTextField;
 @property (weak, nonatomic) IBOutlet UITextField *celsiusTextField;
 @property (strong, nonatomic) NSString *activeTextField;
@@ -26,16 +28,24 @@
 
 @synthesize activeTextField = _activeTextField;
 
+// set active text field
+// use blue color to indicate active, and black for inactive
 - (void)setActiveTextField:(NSString *) activeTextField
 {
     if (![_activeTextField isEqualToString:activeTextField]) {
         _activeTextField = activeTextField;
+        UIColor *activeColor = [UIColor blueColor];
+        UIColor *inactiveColor = [UIColor blackColor];
         if ([_activeTextField isEqualToString:@"F"]) {
-            self.fahrenheitTextField.textColor = [UIColor blueColor];
-            self.celsiusTextField.textColor = [UIColor blackColor];
+            self.fahrenheitLabel.textColor = activeColor;
+            self.fahrenheitTextField.textColor = activeColor;
+            self.celsiusLabel.textColor = inactiveColor;
+            self.celsiusTextField.textColor = inactiveColor;
         } else if ([_activeTextField isEqualToString:@"C"]) {
-            self.fahrenheitTextField.textColor = [UIColor blackColor];
-            self.celsiusTextField.textColor = [UIColor blueColor];
+            self.fahrenheitLabel.textColor = inactiveColor;
+            self.fahrenheitTextField.textColor = inactiveColor;
+            self.celsiusLabel.textColor = activeColor;
+            self.celsiusTextField.textColor = activeColor;
         }
     }
 }

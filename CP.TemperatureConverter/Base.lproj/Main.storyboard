@@ -84,7 +84,9 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="celsiusLabel" destination="JCH-qN-sVG" id="a07-p5-qZc"/>
                         <outlet property="celsiusTextField" destination="4ym-O6-MFq" id="aq8-Ya-KNV"/>
+                        <outlet property="fahrenheitLabel" destination="7De-eX-uMF" id="FXD-dU-RmL"/>
                         <outlet property="fahrenheitTextField" destination="xn5-26-cnf" id="OCE-Ez-s6B"/>
                     </connections>
                 </viewController>
