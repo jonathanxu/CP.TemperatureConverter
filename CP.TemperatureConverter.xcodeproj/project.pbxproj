@@ -21,6 +21,7 @@
 		3E9233FB188DE6E6007E6A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9233DD188DE6E6007E6A6B /* UIKit.framework */; };
 		3E923403188DE6E6007E6A6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E923401188DE6E6007E6A6B /* InfoPlist.strings */; };
 		3E923405188DE6E6007E6A6B /* CP_TemperatureConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E923404188DE6E6007E6A6B /* CP_TemperatureConverterTests.m */; };
+		3E923410188DF8B3007E6A6B /* CPTemperatureUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E92340F188DF8B3007E6A6B /* CPTemperatureUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3E923400188DE6E6007E6A6B /* CP.TemperatureConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CP.TemperatureConverterTests-Info.plist"; sourceTree = "<group>"; };
 		3E923402188DE6E6007E6A6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E923404188DE6E6007E6A6B /* CP_TemperatureConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CP_TemperatureConverterTests.m; sourceTree = "<group>"; };
+		3E92340E188DF8B3007E6A6B /* CPTemperatureUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTemperatureUtil.h; sourceTree = "<group>"; };
+		3E92340F188DF8B3007E6A6B /* CPTemperatureUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTemperatureUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				3E9233EF188DE6E6007E6A6B /* CPViewController.m */,
 				3E9233F1188DE6E6007E6A6B /* Images.xcassets */,
 				3E9233E0188DE6E6007E6A6B /* Supporting Files */,
+				3E92340E188DF8B3007E6A6B /* CPTemperatureUtil.h */,
+				3E92340F188DF8B3007E6A6B /* CPTemperatureUtil.m */,
 			);
 			path = CP.TemperatureConverter;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E9233E6188DE6E6007E6A6B /* main.m in Sources */,
+				3E923410188DF8B3007E6A6B /* CPTemperatureUtil.m in Sources */,
 				3E9233EA188DE6E6007E6A6B /* CPAppDelegate.m in Sources */,
 				3E9233F0188DE6E6007E6A6B /* CPViewController.m in Sources */,
 			);
